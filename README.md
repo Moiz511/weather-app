@@ -108,8 +108,6 @@ Below are some screenshots of the app showing weather results for different citi
 
 ![London Weather](./screenshots/london.png)
 
-> 📌 **Note:** Create a `screenshots` folder in the root of the project and add the images with the same names used above.
-
 ---
 
 ## 📌 Future Improvements
@@ -118,18 +116,6 @@ Below are some screenshots of the app showing weather results for different citi
 * 🌙 Dark mode support
 * ⭐ Favorite cities
 * 🔔 Weather alerts & notifications
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
----
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
 
 ---
 
