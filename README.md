@@ -1,50 +1,143 @@
-# Welcome to your Expo app 👋
+# 🌦️ React Native Weather App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and user-friendly **Weather Application built with React Native**. The app allows users to search for any city and view **current weather conditions** along with a **7-day weather forecast** using a public weather API.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+* 🔍 **Search Weather by City**
+* ☀️ **Current Weather Details**
 
-2. Start the app
+  * Sunrise time
+  * Humidity
+  * Wind speed
+  * Temperature & condition
+* 📅 **7-Day Weather Forecast**
+* 📊 **Progress Bar UI** for better data visualization
+* 💾 **Local Storage** to save user data or last searched city
+* 📱 Clean and responsive UI
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **React Native**
+* **JavaScript**
+* **VS Code**
+* **WeatherAPI (Public API)**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🌐 API Used
 
-When you're ready, run:
+Weather data is fetched from **WeatherAPI**:
+
+* **API Provider:** WeatherAPI
+* **API Type:** Current Weather & 7-Day Forecast
+* **API Explorer:** [https://www.weatherapi.com/api-explorer.aspx#current](https://www.weatherapi.com/api-explorer.aspx#current)
+
+> ⚠️ Note: You need to create a free account on WeatherAPI to get your own API key.
+
+---
+
+## 📦 NPM Libraries Used
+
+* **Progress Bar Library** (for visual indicators)
+* **Async Storage / Storage Library** (to store data locally)
+
+---
+
+## 📂 Project Setup
+
+### 1️⃣ Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/your-repo-name.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+or
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+yarn install
+```
 
-## Join the community
+### 3️⃣ Add API Key
 
-Join our community of developers creating universal apps.
+Create a `.env` file or update the API key directly in your API service file:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```js
+const API_KEY = "YOUR_WEATHER_API_KEY";
+```
+
+### 4️⃣ Run the App
+
+For Android:
+
+```bash
+npx react-native run-android
+```
+
+For iOS:
+
+```bash
+npx react-native run-ios
+```
+
+---
+
+## 📸 Screenshots
+
+Below are some screenshots of the app showing weather results for different cities:
+
+### Karachi, Pakistan
+
+![Karachi Weather](./screenshots/karachi.png)
+
+### Islamabad, Pakistan
+
+![Islamabad Weather](./screenshots/islamabad.png)
+
+### London, United Kingdom
+
+![London Weather](./screenshots/london.png)
+
+> 📌 **Note:** Create a `screenshots` folder in the root of the project and add the images with the same names used above.
+
+---
+
+## 📌 Future Improvements
+
+* 📍 Auto-detect current location
+* 🌙 Dark mode support
+* ⭐ Favorite cities
+* 🔔 Weather alerts & notifications
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Moiz Sheikh**
+Software Engineer | React Native Developer
+
+---
+
+⭐ If you like this project, don’t forget to give it a star on GitHub!
